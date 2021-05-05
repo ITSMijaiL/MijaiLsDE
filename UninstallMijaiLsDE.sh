@@ -18,13 +18,13 @@ then
   	exit
 fi
 
-echo "[1/2]Deleting the folder (${HOME}/MijaiLsDE) ..."
-sudo rm -rf $HOME/MijaiLsDE
+echo "[1/2]Deleting the folder (/usr/local/bin/MijaiLsDE) ..."
+sudo rm -rf /usr/local/bin/MijaiLsDE
 echo "[2/2]Deleting the .desktop file (/usr/share/xsessions/)"
 sudo rm -i /usr/share/xsessions/MDE.desktop
 echo "Done! Packages need to be removed manually since they can be in your system and can be essential for your main DE to run."
 echo "List of packages to remove manually and optionally:"
-echo "(using apt-get) dwm, lxqt-panel"
+echo "(using apt-get) xfwm4, lxqt-panel"
 echo "(using snap) wonderwall"
 echo "(using apt) ulauncher"
 
