@@ -22,7 +22,7 @@ then
 	echo "To download the DE installer its necessary to be root!"
   	exit
 fi
-cd $HOME
+cd $HOME/Downloads
 #Download the installer script
 sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/InstallMijaiLsDE.sh
 #Download the uninstaller
