@@ -24,9 +24,9 @@ then
 fi
 cd $HOME/Downloads
 #Download the installer script
-sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/InstallMijaiLsDE.sh
+sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/InstallMijaiLsDE.sh -P $HOME/Downloads
 #Download the uninstaller
-sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/UninstallMijaiLsDE.sh
+sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/UninstallMijaiLsDE.sh -P $HOME/Downloads
 #Run it
 sudo bash InstallMijaiLsDE.sh
 #Profit?
