@@ -25,7 +25,7 @@ then
 fi
 
 #Package Name: 				| Used as:
-#DWM (dwm) 	   				| Windows Manager
+#xfce WM (xfwm4)	   		| Windows Manager
 #LXQT Panel (lxqt-panel)	| Panel
 #Wonderwall (wonderwall)	| Wallpaper Manager
 #Ulauncher (ulauncher)		| Apps Launcher
@@ -43,7 +43,7 @@ sudo apt install /home/MijaiLsDE/DebPKGS/ulauncher_5.11.0_all.deb
 echo "[3/5]Making DE initialization script in /home/MijaiLsDE/MDE.sh ..."
 sudo touch /home/MijaiLsDE/MDE.sh
 sudo cat > MDE.sh << "EOF"
-exec 
+exec xfwm4
 exec lxqt-panel
 exec ulauncher
 exec wonderwall
