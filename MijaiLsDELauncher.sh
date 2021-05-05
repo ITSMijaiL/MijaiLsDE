@@ -27,5 +27,5 @@ sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/InstallMija
 #Download the uninstaller
 sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/UninstallMijaiLsDE.sh -P $HOME/Downloads
 #Run it
-sudo bash InstallMijaiLsDE.sh
+sudo bash $HOME/Downloads/InstallMijaiLsDE.sh
 #Profit?
