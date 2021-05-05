@@ -18,4 +18,4 @@ sudo ./MijaiLsDELauncher.sh
 ```
 
 ## Extra notes:
-- The scripts are downloaded in $HOME/Downloads (/home/``[YOUR USERNAME]``/Downloads)
+- The scripts are downloaded in /usr/local/bin/Downloads
