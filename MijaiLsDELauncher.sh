@@ -22,10 +22,11 @@ then
 	echo "To download the DE installer its necessary to be root!"
   	exit
 fi
+sudo mkdir /usr/local/bin/MijaiLsDE
 #Download the installer script
-sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/InstallMijaiLsDE.sh -P $HOME/Downloads
+sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/InstallMijaiLsDE.sh -P /usr/local/bin/MijaiLsDE/Downloads
 #Download the uninstaller
-sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/UninstallMijaiLsDE.sh -P $HOME/Downloads
+sudo wget https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/UninstallMijaiLsDE.sh -P /usr/local/bin/MijaiLsDE/Downloads
 #Run it
-sudo bash $HOME/Downloads/InstallMijaiLsDE.sh
+sudo bash /usr/local/bin/MijaiLsDE/Downloads/InstallMijaiLsDE.sh
 #Profit?
