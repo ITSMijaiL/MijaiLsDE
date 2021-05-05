@@ -53,9 +53,9 @@ echo "[4/5]Making the .desktop file (/usr/share/xsessions/)"
 sudo touch /usr/share/xsessions/MDE.desktop
 sudo cat > /usr/share/xsessions/MDE.desktop << "EOF"
 [Desktop Entry]
-Name=MijaiLsDesktopEnvironment
-Comment=Or what i like to call it: a strange frankenstein of packages
-Exec=/usr/local/bin/MijaiLsDE/MDE.sh
+Name=MijaiLsDE
+Comment=MijaiL's desktop environment
+Exec=MDE.sh
 Type=Application
 EOF
 echo "[5/5] Done! Restart or logout to initiate the DE."
