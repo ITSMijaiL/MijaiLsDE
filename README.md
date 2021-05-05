@@ -3,6 +3,9 @@
 A linux desktop environment *(or, more like a group of packages)* made by me only as a experiment to learn how bash scripts works and how desktop environments work.
 If school lets me, I will update it every day and improve the install shell script
 
+# NOTE: 
+**ITS NOT RECOMMENDED TO USE THIS SCRIPTS AS THEY ARE UNSTABLE RIGHT NOW!**
+
 ## Usage:
 1. Download the launcher script in any directory you prefer:
 ```bash
