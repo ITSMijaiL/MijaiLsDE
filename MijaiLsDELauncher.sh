@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 LauncherVersion="1.1"
 VersionFromGithub=$( curl -# -L "https://raw.githubusercontent.com/ITSMijaiL/MijaiLsDE/main/Version.txt" 2> '/dev/null' )
 
